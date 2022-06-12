@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question1</title>
+    <link rel="stylesheet" href="./Question1.css">
+    
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   
+
+    <!-- bieu tuong google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- Link Bootstrap Icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<h1 >Nộp CV thành tích quá khủng, cô gái bị thất nghiệp không hiểu lý do</h1>
+<div><span style="color:tomato;">VÂN TRANG   </span>
+  <span> - </span>
+  <span> <b>Theo tri thức trẻ </b></span>
+  <span class="iconClock"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+  </svg></span>
+  <span id="clockDiv" class="clock"></span><br></div>
+
+
+<script language='javascript'>
+    var myVar=setInterval(function(){Clock()},1000);
+    function Clock() {
+        a=new Date();
+        w=Array("Chủ Nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy");
+        var a=w[a.getDay()],
+            w=new Date,
+            d=w.getDate();
+        m=w.getMonth()+1;
+        y=w.getFullYear();
+        h=w.getHours();
+        mi=w.getMinutes();
+        se=w.getSeconds();
+        if(10>d){d="0"+d}
+        if(10>m){m="0"+m}
+        if(10>h){h="0"+h}
+        if(10>mi){mi="0"+mi}
+        if(10>se){se="0"+se}
+        document.getElementById("clockDiv").innerHTML="Hôm nay: "+a+", "+d+" / "+m+" / "+y+" - "+h+":"+mi+":"+se+"";
+    }
+</script>
+<div>
+  <span class="khoangtrang"> -- </span>
+<span style="background-color:rgb(71, 74, 255);" class="like1" > 
+  <span style="color:rgb(71, 74, 255) ;">-</span>
+  <span><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+  </svg></span>
+  <span>Thích</span>
+  <span>98</span>
+  <span style="color:rgb(71, 74, 255) ;">-</span>
+</span>
+
+<span style="color:white;">-</span>
+
+<span style="background-color:rgb(71, 74, 255);" class="like2">
+  <span style="color:rgb(71, 74, 255) ;">-</span>
+  <span>Chia sẻ</span>
+  <span style="color:rgb(71, 74, 255) ;">-</span>
+</span>
+
+<span style="color:white;">-</span>
+
+<span style="background-color:cadetblue;" class="like3">
+  <span style="color:cadetblue;">-</span>
+  <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+  </svg></span>
+  <span style="color:cadetblue;">-</span>
+</span>
+</div><br>
+
+<div class="ngancach">__________________________________________________________</div>
+
+
+<!-- <div class="khanh"><img src="image/0003-12-27 10.20.04_resize.jpg" width="400" height="400" /></div> -->
+
+<div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+
+      </div>
+
+
+
+
+
+
+      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
+        <div>
+          <b><font size="4px"> Đi làm rồi mới thấy muôn kiểu lý do từ chối ứng viên. Năng lực kém chắc chắn không được nhưng người giỏi quá đôi khi cũng không nhận vào làm nốt.</b> </font><br><br>
+          <ul type="circle" style="color:coral ;" >
+              <li >Đem CV ứng tuyển ra trêu đùa, nhà tuyển dụng nhận trái đắng</li>
+              <li>Ứng viên chửi bới, nhà tuyển dụng bị dân tình soi ra lỗi kinh điển rất dễ mắc</li>
+              <li>Nữ sinh tức tối bị nhà tuyển dụng lật kèo hủy lịch phút chót</li>
+          </ul>
+        </div>
+        
+         <!-- Phan 1 -->
+        <div>
+          <p><font size="3px">
+             Sinh viên tốt nghiệp là những ngươi đang đứng trước ngưỡng cửa thị trường lao động, là thế hệ trẻ nhất, được kì vọng nhiều nhất bởi sự năng động, nhạy bén và sáng tạo. Thế nhưng liệu họ có thể đáp ứng được những đòi hỏi của công việc trong môi trường thực tế gấp rút, nhiều áp lực hay không lại là một vấn đề không thể kết luận được.
+              </font></p>
+
+          <p><font size="3px"> 
+            Thực tế có rất nhiều nguyên nhân khiến người trẻ thất nghiệp. Có vô số lý do từ hiển nhiên cho đến vô cùng khó hiểu như đòi hỏi quá cao, không chấp nhận mức lương thấp, thích việc nhẹ nhàng, ngại đi xa, cộng thêm thiếu kỹ năng mềm, giao tiếp bằng tiếng Anh kém... Tuy nhiên thất nghiệp vì quá giỏi như cô nàng dưới đây lại khá hiếm.
+             </font></p>
+          </div><br><br>
+        
+        <div class="image1"><img src="image\4738886919728881161224611635264452414668800n-15457980528661684563219-1591090000826874069060.webp" width="600" height="450" />
+        </div>
+        
+        <div class="image1">
+          <p style="background-color:rgb(182, 178, 178);" class="image2">
+            <font size="2px" style="color:black;">
+              Cô gái thất nghiệp vì thành tích làm việc quá khủng. (Ảnh minh họa)
+            </font></p>
+        </div>
+
+         <!-- Phan 2 -->
+        <div>
+          <p><font size="3px">
+            Cụ thể, cô nàng V.P chia sẻ trê một group khá có tiếng chuyên tìm việc làm cho dân văn phòng và sinh viên:
+          </font></p>
+
+          <p><font size="3px">
+            <i>
+              "Mình hiện tại thất nghiệp được gần 3 tháng và hiện tại rất hoang mang. Mình tốt ngiệp Đại học với tấm bằng loại giỏi và vừa ra trường đã đỗ vào một tập đoàn nước ngoài khá có tiếng với vị trí Nhân viên Hành chính. Làm tầm được 2 năm, mình lại chuyển sang một tập đoàn lớn ở Việt Nam vào vị trí Chuyên viên giám sát vể mảng quản lý kho bãi, công việc này có thể giúp mình học hỏi và trau dồi thêm nhiều kỹ năng mềm.
+            </i> 
+          </font></p>
+
+          <p><font size="3px">
+            <i>
+              Đang yên đang lành, tự dưng dịch đến làm công ty mình phải cho nhân viên nghỉ vì thị trường chủ yếu là Mỹ. Mình nghỉ việc từ tháng 3, nhưng điều đáng nói là từ đó đến nay, mình không thể xin được bất kỳ công ty nào nữa.
+            </i> 
+          </font></p>
+
+          <p><font size="3px">
+            <i>
+              Những công ty vừa và lớn ở chỗ mình vì đang dịch nên không tuyển dụng nhân sự. Mình nộp vào công ty tư nhân, quy mô nhỏ nhưng đi phỏng vấn lại không đỗ, tất cả đều đưa ra lý do bởi kinh nghiệm làm việc và kỹ năng của mình tạo cảm giác cho họ suy nghĩ mình chỉ xin việc ở chỗ họ một thời gian tạm bợ và sẽ không gắn bó lâu dài. Mặc dù mình đã ra sức thuyết phục rằng đang rất cần việc và sẽ sẵn sàng gắn bó lâu dài nếu công ty có chế độ và phúc lợi tốt. Tuy nhiên, tất cả đều bặt vô âm tín.
+            </i> 
+          </font></p>
+
+          <p><font size="3px">
+            <i>
+              Đã ba tháng trôi qua và nếu tình hình cứ thế này thì thực sự mình sẽ bế tắc mắt. Cơ hội việc làm cứ nhỏ giọt và không được như vậy. Sau gần 5 năm làm việc tại các công ty lớn, lần đầu mình trải qua cảm giác lo lắng tột độ vì thất nghiệp. Từ một người tự tin đi đâu cũng đỗ vậy mà cả công ty từ lớn đến bé đều chối bỏ mình. Ngoài khả năng chuyên môn, mình còn khả năng viết lách, giờ muốn nhân dịp này xuất bản sách nhưng cũng chẳng còn tâm trạng nữa".
+            </i> 
+          </font></p>
+          </div><br><br>
+          
+          <div class="image1"><img src="image\837d5b5bc48cabe7718caf39906320ed-15910901234431918678837.webp" width="600" height="450" />
+          </div>
+        
+          <div class="image1">
+            <p style="background-color:rgb(182, 178, 178);" class="image3">
+              <font size="2px" style="color:black;">
+                Có thể thấy Covid-19 đã ảnh hưởng rất nhiều đến thị trường lao động,
+                khiến cho ứng viên dù năng lực giỏi vẫn không được nhận làm việc.
+                (Ảnh minh họa)
+              </font></p>
+          </div>
+
+          <!-- Phan 3 -->
+          <div>
+            <p><font size="3px">
+              Dòng tâm sự của cô gái này đã nhận về nhiều đồng cảm của cộng đồng mạng. Thực tế, tình trạng thất nghiệp mùa dịch không hề hiếm khi hàng loạt công ty đã phải tuyên bố phá sản. Nhiều người cũng ngậm ngùi chia sẻ chỉ nhận được 1/2 hay thậm chí 1/3 mức lương cũ khi apply hậu mùa dịch.
+              </font></p>
+  
+            <p><font size="3px">
+              <i>
+                "Nếu mình là CEO 1 công ty nhỏ thì cũng không tuyển bạn thật bởi trình độ và năng lực của bạn không hợp. Công ty nhỏ cũng có cái khó và mục tiêu riêng của nó. Nhận bạn vào không khéo năng lực của bạn còn cao hơn cả sếp", bạn H.T bình luận.
+              </i> 
+            </font></p>
+  
+            <p><font size="3px">
+              <i>
+                "Bạn chỉ cần hạ mình, giấu đỡ kinh nghiệm thực tế thì không lo thất nghiệp. Quan trọng là bạn có chấp nhận làm không thôi", bạn A.B chia sẻ.
+              </i> 
+            </font></p>
+  
+            <p><font size="3px">
+              <i>
+                "Quan trọng là tư tưởng của bạn có chịu làm những công việc mà khởi đầu rất thấp không. Như mình giờ chỉ xin đi làm công ty lương bằng nửa lương cũ cho sống qua mấy ngày khó khăn này. Đừng tỏ ra quá tự tin hay tham vọng khi phỏng vấn, HR thấy giỏi quá không cho vào làm đâu", bạn L.M chia sẻ.
+              </i> 
+            </font></p>
+
+            <p><font size="3px">
+              Đúng là khi đi làm mới thấy muôn kiểu không nhận ứng viên. Kém quá chắc chắn không đươc nhưng giỏi quá cũng chưa chắc được nhận. Về phần cô nàng trong câu chuyện trên thì tin mừng là sau khi bài viết đăng tải, một vài nơi đã liên hệ với V.P để phỏng vấn. Hi vọng với năng lực sẵn có của mình, cô nàng sẽ đem lại lợi nhuận giúp khắc phục tổn hại kinh tế cho công ty.
+              </font>
+            </p>
+
+          </div><br><br>
+
+          <div class="image1"><img src="image\0003-12-27 10.20.04_resize.jpg" width="1000" height="250" />
+          </div>
+          
+
+
+      </div>
+
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

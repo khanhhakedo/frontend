@@ -1,0 +1,74 @@
+.image1{
+    display:flex;
+    height: auto;
+    justify-content:center;
+    /* margin-left: 300px; */
+    /* width:"600";
+     height:"450"; */
+}
+
+.image2{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 600px;
+          height:30px;
+          border-radius:0px/0px;
+}
+
+.image3{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 600px;
+          height:70px;
+          border-radius:0px/0px;
+}
+
+/* .clock{
+    justify-content:center;
+    margin-left: 0px;
+    color: blue;
+} */
+
+.iconClock{
+    justify-content:right;
+    margin-left: 1000px;
+    color: rgb(255, 0, 0);
+}
+
+.khoangtrang{
+color: white;
+}
+
+.like1{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 125px;
+          height:20px;
+          border-radius:25px/25px;
+}
+
+.like2{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 100px;
+          height: 20px;
+          border-radius:20px/20px;
+
+}.like3{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: inline-block;
+    width: 50px;
+          height: 20px;
+          border-radius:20px/20px;
+}
+
+.ngancach{
+    display:flex;
+    height: auto;
+    justify-content:center;  
+}

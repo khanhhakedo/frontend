@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question4</title>
+</head>
+<body>
+<h2>Register</h2>
+
+<p><i>Please  <b>fill in this form</b> to create an account</i></p>
+<form>
+    <label for="fname">Full name<sup style="color:red;">*</sup> </label><br>
+    <input type="text" id="fname" name="fname" placeholder="Input your fullname..." autofocus required autocomplete = "on"><br>
+
+    <label for="Uname">User name<sup style="color:red;">*</sup></label><br>
+    <input type="text" id="Uname" name="Uname" placeholder="Input your username..." required  autocomplete = "on"><br>
+
+    <label for="Password">Password<sup style="color:red;">*</sup></label><br>
+    <input type="password" id="Password" name="Password" placeholder="Input password..." required autocomplete = "on"><br>
+
+    <label for="Email">Email<sup style="color:red;">*</sup></label><br>
+    <input type="email" id="Email" name="Email" placeholder="Input email..." required autocomplete = "on"><br>
+
+    <label for="Telephone">Telephone number<sup style="color:red;">*</sup></label><br>
+    <input type="tel" id="Telephone" name="Telephone" placeholder="Input telephone..." required autocomplete = "on"><br>
+</form><br>
+
+    <p>Input Object:</p>
+    <form >
+         <input type="radio" id="student" name="fav_language" value="Student">
+         <label for="student">Student</label>
+        <input type="radio" id="teacher" name="fav_language" value="Teacher">
+        <label for="teacher">Teacher</label><br>
+    </form><br>
+
+    <p>Favorite:</p>
+    <form >
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Badminton">
+        <label for="vehicle1"> Badminton</label>
+
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Volleyball">
+        <label for="vehicle2"> Volleyball</label>
+
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Football">
+        <label for="vehicle3"> Football</label><br>
+    </form><br>
+
+    <form >
+        <label for="Address">Address<sup style="color:red;">*</sup></label><br>
+        <select name="Address" id="Address">
+            <option value="Bắc Giang">Bắc Giang</option>
+            <option value="Thái Bình">Thái Bình</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+        </select>
+    </form><br>
+
+
+<form >
+    <label for="birthday">Birthday<sup style="color:red;">*</sup></label><br>
+    <input type="date" id="birthday" name="birthday" value="mm/dd/yyyy" >
+</form><br>
+
+
+<form >
+    <label for="myfile">Your picture<sup style="color:red;">*</sup></label><br>
+    <input type="file" id="myfile" name="myfile">  <br><br>
+    <input type="submit" placeholder="Submit">
+</form><br>
+
+
+
+</body>
+</html>
