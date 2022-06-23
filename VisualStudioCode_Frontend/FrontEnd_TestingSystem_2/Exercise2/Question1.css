@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text1{
+    display:flex;
+    height: auto;
+    justify-content:center;
+}

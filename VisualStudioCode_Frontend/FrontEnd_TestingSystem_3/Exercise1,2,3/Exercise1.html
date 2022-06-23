@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question1</title>
+
+</head>
+<body>
+
+
+  
+
+<script>
+
+  "use strict"
+  // document.write(5);
+    // Department
+    var Count = 0;
+    var departmentID;
+    var departmentName;
+  function department (departmentName){
+    this.departmentID = ++ Count;
+    this.departmentName = departmentName;
+  }
+
+  var department1 = new department("Sale");
+  var department2 = new department("Marketing");
+
+  var array_department = [department1,department2];
+  // console.log(department1);
+  // console.log(department2);
+   var i;
+  for (i= 0; i < array_department.length; i++) {
+    console.log(array_department[i]);
+  }
+
+//   Position 
+
+    var Count1 = 0;
+    var positionID;
+    var positionName;
+  function position (positionName, department){
+    this.positionID = ++ Count1;
+    this.positionName = positionName;
+    this.department = department;
+  }
+
+  var position1 = new position("Dev",department1);
+  var position2 = new position("Test",department2);
+  var array_position = [position1,position2];
+
+
+  for( var y=0; y< array_position.length; y++){
+    console.log(array_position[y]);
+  }
+ 
+  // console.log(position1);
+  // console.log(position2);
+  
+
+</script>
+</body>
+</html>
